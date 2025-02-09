@@ -57,6 +57,15 @@ body {
 }
 
 /* 🍫 Chocolate Dripping Effect on Heading */
+.textfornext {
+    margin-top: 30px;
+    padding: 10px;
+    background: #5d3a1a;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 .textfornext h2 {
     font-size: 24px;
     background: linear-gradient(to right, #5d3a1a, #3b1d0a);
@@ -79,18 +88,17 @@ body {
     border-radius: 50%;
 }
 
-/* ✨ Fancy Link Styling */
+/* ✨ Improve Link Visibility */
 a {
-    color: #ffdab9;
-    font-size: 20px;
-    text-decoration: none;
+    color: #ffcc99;  /* Light caramel color */
+    font-size: 22px;
     font-weight: bold;
-    transition: 0.3s;
-    display: inline-block;
-    margin-top: 10px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
 }
 
 a:hover {
+    color: #ff9900;  /* Darker caramel on hover */
     text-shadow: 0px 0px 10px rgba(255, 223, 186, 0.8);
 }
 
@@ -99,9 +107,4 @@ a:hover {
 
 h2, .text {
     font-family: 'Choco Cooky', cursive;
-}
-
-/* 🎂 Centering Everything */
-.textfornext {
-    margin-top: 30px;
 }
